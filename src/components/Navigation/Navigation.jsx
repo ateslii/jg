@@ -83,44 +83,44 @@ const Navigation = () => {
         <List>
           <Item>
             <Link onClick={toggleMenu} to="/portfolio">
-              Portfolio
+              Портфолио
             </Link>
           </Item>
           <Item>
             <Link onClick={toggleMenu} to="/services">
-              Services and Prices
+              Услуги и цены
             </Link>
           </Item>
           <Item>
             <Link onClick={toggleMenu} to="/aftercare">
-              Aftercare
+              Последующий уход
             </Link>
           </Item>
-          <Item>
-            <Link onClick={toggleMenu} to="/waiverform">
-              Waiver
-            </Link>
-          </Item>
+          {/*<Item>*/}
+          {/*  <Link onClick={toggleMenu} to="/waiverform">*/}
+          {/*    Waiver*/}
+          {/*  </Link>*/}
+          {/*</Item>*/}
           <Item>
             <Link onClick={toggleMenu} to="/booking/service">
-              Booking
+              Бронирование
             </Link>
           </Item>
           <Item>
             <Link onClick={toggleMenu} to="/faq">
-              FAQ
+              Вопросы и ответы
             </Link>
           </Item>
           <Item>
             <Link onClick={toggleMenu} to="/contact">
-              Contact
+              Контакты
             </Link>
           </Item>
-          <Item>
-            <Link onClick={toggleMenu} to="/payment/client-info">
-              Payment
-            </Link>
-          </Item>
+          {/*<Item>*/}
+          {/*  <Link onClick={toggleMenu} to="/payment/client-info">*/}
+          {/*    Payment*/}
+          {/*  </Link>*/}
+          {/*</Item>*/}
         </List>
       </MobileContainer>
     </Header>
