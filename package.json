@@ -1,0 +1,75 @@
+{
+  "name": "juli-gros",
+  "version": "1.0",
+  "private": true,
+  "homepage": "",
+  "dependencies": {
+    "@react-google-maps/api": "^2.19.0",
+    "@react-pdf/renderer": "^3.1.12",
+    "@stripe/react-stripe-js": "^2.1.2",
+    "@stripe/stripe-js": "^2.0.0",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.8.2",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "formik": "^2.4.2",
+    "i": "^0.3.7",
+    "normalize.css": "^8.0.1",
+    "npm": "^9.8.0",
+    "react": "^18.1.0",
+    "react-datepicker": "^4.16.0",
+    "react-dom": "^18.1.0",
+    "react-helmet-async": "^1.3.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.10.1",
+    "react-loader-spinner": "^5.4.5",
+    "react-loading-skeleton": "^3.3.1",
+    "react-number-format": "^5.2.2",
+    "react-places-autocomplete": "^7.3.0",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "5.0.1",
+    "react-signature-canvas": "^1.0.6",
+    "react-use": "^17.4.0",
+    "source-map-resolve": "^0.6.0",
+    "styled-components": "^6.0.2",
+    "svgo": "^3.2.0",
+    "swiper": "^10.0.4",
+    "web-vitals": "^2.1.3",
+    "yup": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint:js": "eslint src/**/*.{js,jsx}"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-unused-vars": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      "last 2 versions",
+      ">1%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 2 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.24.5"
+  }
+}
