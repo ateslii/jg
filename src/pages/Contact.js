@@ -10,7 +10,7 @@ import {
 
 import { FiMapPin, FiMail } from 'react-icons/fi';
 import { TfiTime } from 'react-icons/tfi';
-import { SiInstagram } from 'react-icons/si';
+import { SiTelegram } from 'react-icons/si';
 
 import EmbeddedMap from '../components/EmbeddedMap';
 
@@ -47,14 +47,14 @@ export default function Contact() {
             <Label>11:00 - 20:00</Label>
           </Flex>
           <Flex>
-            <StyledIcon as={SiInstagram} />
+            <StyledIcon as={SiTelegram} />
             <Link
-              href="https://www.instagram.com/grostattoo?igsh=MTdnbnZvamZvcDk0Mg=="
+              href="https://t.me/JulGros"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="instagram-page"
             >
-              Инстаграм
+              Телеграм
             </Link>
           </Flex>
         </FlexItem>

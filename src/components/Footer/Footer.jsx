@@ -7,7 +7,7 @@ import {
   GitIcon,
   GitIconTwo,
 } from './Footer.styled';
-import { SiInstagram, SiTiktok, SiWhatsapp } from 'react-icons/si';
+import { SiTelegram, SiTiktok, SiWhatsapp } from 'react-icons/si';
 
 const Footer = () => {
   return (
@@ -42,12 +42,12 @@ const Footer = () => {
           <SiWhatsapp />
         </Link>
         <Link
-          href="https://www.instagram.com/grostattoo?igsh=MTdnbnZvamZvcDk0Mg=="
+          href="https://t.me/JulGros"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="instagram-page"
         >
-          <SiInstagram></SiInstagram>
+          <SiTelegram></SiTelegram>
         </Link>
       </LinksContainer>
     </FooterContainer>
